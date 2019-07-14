@@ -1,0 +1,18 @@
+<?php
+
+namespace Houphp\Routing\Matching;
+
+use Houphp\Http\Request;
+use Houphp\Routing\Route;
+
+interface ValidatorInterface
+{
+    /**
+     * Validate a given rule against a route and request.
+     *
+     * @param  \Houphp\Routing\Route  $route
+     * @param  \Houphp\Http\Request  $request
+     * @return bool
+     */
+    public function matches(Route $route, Request $request);
+}
