@@ -21,7 +21,7 @@
     "autoload": {
         "files": [],
         "psr-4": {
-            "houjit\\": "src/"
+            "houphp\\": "src/"
         }
     }
 }
