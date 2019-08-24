@@ -47,17 +47,17 @@ houphp是一个极轻的的，定位于后置SOA服务的框架，可开发独�
 
 ## 流程图
 
-![点击查看zphp流程图](https://raw.github.com/shenzhe/zphp/master/zphp_jg.jpg "zphp流程图") 
+![点击查看zphp流程图](https://github.com/houphp/framework/blob/master/houphp_jg.jpg "houphp流程图") 
 
 ## 约定
 
 - config/example/base.php 里的配置项目是必需的。
 - 当不同模块使用了相同的adapter(如:redis), 如用到不同的host或port,可配置_prefix进行隔离
-- cli模块执行 php 项目目录/webroot/main.php 配置目录名(如:default) 参数(格式：a=b\&c=d\&e=f)
+- cli模块执行 php 项目目录/public/main.php 配置目录名(如:default) 参数(格式：a=b\&c=d\&e=f)
     
 ## 环境要求
 
-PHP >= 5.4
+PHP >= 7.1
 
 ## 协议
 
