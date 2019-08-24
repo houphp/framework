@@ -2,138 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44954f41-c0a7-4dc2-b3bc-4cc61d5f96cb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/framework.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/framework.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CREDITS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cache/Adapter/Apc.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cache/Adapter/Memcached.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cache/Adapter/Php.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cache/Adapter/Redis.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cache/Adapter/Task.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cache/Adapter/XCache.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cache/Adapter/Yac.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cache/Factory.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cache/ICache.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/Async/Http.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/Async/Tcp.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/Fcgi/Client.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/Rpc/Http.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/Rpc/Tcp.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/Rpc/Udp.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/Sync/Http.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/Sync/Tcp.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/Debug.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/Dir.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/Formater.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/Lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/Log.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/MessagePacker.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/Route.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/Terminal.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/Utils.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Conn/Adapter/Php.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Conn/Adapter/Redis.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Conn/Adapter/Swoole.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Conn/Adapter/Task.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Conn/Adapter/Yac.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Conn/Factory.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Conn/IConn.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controller/IController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Config.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Factory.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Route.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Db/Mongo.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Db/Pdo.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/Adapter/File.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/Adapter/WebSocket.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/Base.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/Factory.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/Level.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Manager/Beanstalk.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Manager/Memcached.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Manager/Redis.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Manager/Task.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Protocol/Adapter/Ant.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Protocol/Adapter/Cli.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Protocol/Adapter/Http.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Protocol/Adapter/Json.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Protocol/Adapter/Rest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Protocol/Adapter/Rpc.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Protocol/Adapter/Zpack.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Protocol/Adapter/Zrpack.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Protocol/Factory.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Protocol/IProtocol.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Protocol/Request.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Protocol/Response.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Queue/Adapter/Beanstalk.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Queue/Adapter/Php.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Queue/Adapter/Redis.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Queue/Factory.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Queue/IQueue.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rank/Adapter/Redis.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rank/Factory.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rank/IRank.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Serialize/Adapter/Igbinary.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Serialize/Adapter/Msgpack.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Serialize/Adapter/Php.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Serialize/Factory.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/Adapter/Ant.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/Adapter/Cli.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/Adapter/Hprose.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/Adapter/Http.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/Adapter/Rpc.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/Adapter/Socket.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/Factory.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/IServer.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session/Adapter/File.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session/Adapter/Redis.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session/Factory.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session/Swoole.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Socket/Adapter/Hprose.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Socket/Adapter/Php.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Socket/Adapter/React.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Socket/Adapter/Swoole.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Socket/Callback/Hprose.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Socket/Callback/HttpServer.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Socket/Callback/Mimes.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Socket/Callback/Swoole.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Socket/Callback/SwooleHttp.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Socket/Callback/SwooleUdp.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Socket/Callback/SwooleWebSocket.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Socket/Callback/WSServer.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Socket/Client.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Socket/Factory.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Socket/ICallback.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Socket/IServer.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Socket/Route.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Socket/Route/FCGI.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Socket/Route/RPC.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Socket/Route/ZRpack.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Socket/Route/houphp.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Storage/Adapter/RL.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Storage/Adapter/Redis.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Storage/Adapter/TT.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Storage/Factory.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Storage/IStorage.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/Adapter/Amf.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/Adapter/Ant.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/Adapter/Json.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/Adapter/Php.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/Adapter/Str.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/Adapter/String.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/Adapter/Xml.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/Adapter/Zpack.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/Adapter/Zrpack.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/Base.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/Factory.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/IView.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/houphp.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/houphp_jg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CREDITS" beforeDir="false" afterPath="$PROJECT_DIR$/CREDITS" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Houphp/Client/Fcgi/Client.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Client/Fcgi/Client.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.php" beforeDir="false" afterPath="$PROJECT_DIR$/build.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/1.6.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/1.6.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -146,11 +19,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="43" column="16" lean-forward="true" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
+            <state relative-caret-position="209">
+              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CREDITS">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="16" selection-start-column="16" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -179,11 +61,13 @@
     <findStrings>
       <find>Houphp</find>
       <find>ZPHP</find>
+      <find>webroot</find>
     </findStrings>
     <replaceStrings>
       <replace />
       <replace>houphp</replace>
       <replace>Houphp</replace>
+      <replace>public</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -192,7 +76,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/View/Base.php" />
         <option value="$PROJECT_DIR$/View/Factory.php" />
         <option value="$PROJECT_DIR$/View/IView.php" />
         <option value="$PROJECT_DIR$/View/Adapter/Amf.php" />
@@ -237,12 +120,13 @@
         <option value="$PROJECT_DIR$/Conn/Adapter/Swoole.php" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/Common/Dir.php" />
-        <option value="$PROJECT_DIR$/build.php" />
         <option value="$PROJECT_DIR$/aabbbcc/webroot/main.php" />
         <option value="$PROJECT_DIR$/Protocol/Request.php" />
         <option value="$PROJECT_DIR$/houphp.php" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/Houphp/Houphp.php" />
+        <option value="$PROJECT_DIR$/build.php" />
+        <option value="$PROJECT_DIR$/CREDITS" />
       </list>
     </option>
   </component>
@@ -310,12 +194,12 @@
       <updated>1563099708163</updated>
       <workItem from="1563099709248" duration="411000" />
       <workItem from="1566617744820" duration="11598000" />
-      <workItem from="1566649904768" duration="1264000" />
+      <workItem from="1566649904768" duration="1423000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13273000" />
+    <option name="totallyTimeSpent" value="13432000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="972" extended-state="0" />
@@ -346,16 +230,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Rank/IRank.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="74" selection-start-line="9" selection-start-column="74" selection-end-line="9" selection-end-column="74" />
-          <folding>
-            <element signature="e#6#80#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Queue/IQueue.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -811,8 +685,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/build.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="43" column="16" lean-forward="true" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
+        <state relative-caret-position="209">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CREDITS">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
         </state>
       </provider>
     </entry>

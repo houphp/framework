@@ -196,7 +196,7 @@ class Client
             'GATEWAY_INTERFACE' => 'CGI/1.1',
             'SERVER_PROTOCOL' => 'HTTP/1.1',
             'REQUEST_METHOD' => 'GET',
-            'SCRIPT_FILENAME' => isset($url['SCRIPT_NAME']) ? $url['SCRIPT_NAME'] : Houphp::getRootPath() . DS . 'webroot' . DS . 'main.php',
+            'SCRIPT_FILENAME' => isset($url['SCRIPT_NAME']) ? $url['SCRIPT_NAME'] : Houphp::getRootPath() . DS . 'public' . DS . 'main.php',
             'SCRIPT_NAME' => isset($url['SCRIPT_NAME']) ? $url['SCRIPT_NAME'] : DS . 'main.php',
             'DOCUMENT_URI' => isset($url['DOCUMENT_URI']) ? $url['DOCUMENT_URI'] : DS . 'main.php',
             'HTTP_HOST' => isset($url['HTTP_HOST']) ? $url['HTTP_HOSTI'] : 'default',
