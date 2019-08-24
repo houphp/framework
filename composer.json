@@ -1,10 +1,11 @@
 {
 	"name": "houphp/framework",
-	"type": "framework",
+	"type": "library",
     "description": "Houphp is a light that is dedicated to gaming, social networking, web, mobile server-side frameworks. Providing high performance real-time communication solutions.",
     "keywords": ["framework", "server", "socket", "multi", "progress" ,"thread"],
     "homepage": "https://github.com/shenzhe/zphp",
     "license": "MIT",
+	"minimum-stability":"stable",
 	"authors": [
 		{
 			"name": "shenzhe",
