@@ -10,8 +10,7 @@
             return;
         }
     }
-
-
+    
     if(Houphp\Common\Dir::make($app_path)) {
         $dirList = array(
             'apps'.DIRECTORY_SEPARATOR.'ctrl'.DIRECTORY_SEPARATOR.'main',
@@ -22,7 +21,7 @@
             'config'.DIRECTORY_SEPARATOR.'default',
             'config'.DIRECTORY_SEPARATOR.'public',
             'template',
-            'public'.DIRECTORY_SEPARATOR.'static',
+            'webroot'.DIRECTORY_SEPARATOR.'static',
         );
         foreach($dirList as $realPath) {
             if(Houphp\Common\Dir::make($app_path.DIRECTORY_SEPARATOR.$realPath)) {
@@ -34,7 +33,7 @@ use Houphp\Houphp;
 $rootPath = dirname(__DIR__);
 require \''.__DIR__.'\'. DIRECTORY_SEPARATOR . \'Houphp\' . DIRECTORY_SEPARATOR . \'Houphp.php\';
 Houphp::run($rootPath);';
-        file_put_contents($app_path.DIRECTORY_SEPARATOR.'public'.DIRECTORY_SEPARATOR.'main.php', $mainTxt);
+        file_put_contents($app_path.DIRECTORY_SEPARATOR.'webroot'.DIRECTORY_SEPARATOR.'main.php', $mainTxt);
         echo "main.php done...".PHP_EOL;
 
         $ctrlTxt = '<?php

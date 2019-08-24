@@ -1,18 +1,22 @@
 {
-	"name": "houjit/houphp-frame",
+	"name": "zphp/zphp",
 	"type": "framework",
-    "description": "HouPHP is a light that is dedicated to gaming, social networking, web, mobile server-side frameworks. Providing high performance real-time communication solutions.",
+    "description": "Houphp is a light that is dedicated to gaming, social networking, web, mobile server-side frameworks. Providing high performance real-time communication solutions.",
     "keywords": ["framework", "server", "socket", "multi", "progress" ,"thread"],
     "homepage": "https://github.com/shenzhe/zphp",
     "license": "MIT",
 	"authors": [
 		{
-			"name": "amos",
-			"email": "amos@houjit.com"
+			"name": "shenzhe",
+			"email": "shenzhe163@gmail.com"
+		},
+		{
+			"name": "cooper",
+			"email": "myxiaoao@gmail.com"
 		}
 	],
 	"require": {
-		"php": ">=7.0.0"
+		"php": ">=5.3.7"
 	},
 	"autoload": {
         "psr-0": { "Houphp\\": "" }
