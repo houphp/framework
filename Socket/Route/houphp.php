@@ -8,22 +8,21 @@
 // +----------------------------------------------------------------------
 // | Author: Amos <447107108@qq.com> http://www.houjit.com
 // +----------------------------------------------------------------------
-namespace houphp\Storage;
+// | 内置route
+// +----------------------------------------------------------------------
+namespace houphp\Socket\Route;
 
-use houphp\Core\Factory as CFactory;
-use houphp\Core\Config as ZConfig;
+use houphp\Protocol;
+use houphp\Core;
 
-class Factory
+class houphp
 {
-    public static function getInstance($adapter = 'Redis', $config = null)
+    public function run($data, $fd = null)
     {
-        if (empty($config)) {
-            $config = ZConfig::get('storage');
-            if (!empty($config['adapter'])) {
-                $adapter = $config['adapter'];
-            }
-        }
-        $className = __NAMESPACE__ . "\\Adapter\\{$adapter}";
-        return CFactory::getInstance($className, $config);
+        $server = Protocol\Factory::getInstance(Core\Config::getField('socket', 'protocol', 'Http'));
+        $server->setFd($fd);
+        $server->parse($data);
+        return Core\Route::route($server);
     }
+
 }

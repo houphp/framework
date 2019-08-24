@@ -8,10 +8,7 @@
 // +----------------------------------------------------------------------
 // | Author: Amos <447107108@qq.com> http://www.houjit.com
 // +----------------------------------------------------------------------
-
-
 namespace houphp\Db;
-
 use houphp\Protocol\Request;
 use houphp\Core\Config as ZConfig;
 
