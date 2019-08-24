@@ -20,7 +20,7 @@
         }
     }
 
-    if(Common\Dir::make($app_path)) {
+    if(houphp\Common\Dir::make($app_path)) {
         $dirList = array(
             'apps'.DIRECTORY_SEPARATOR.'ctrl'.DIRECTORY_SEPARATOR.'index',
             'apps'.DIRECTORY_SEPARATOR.'entity',
@@ -33,7 +33,7 @@
             'public'.DIRECTORY_SEPARATOR.'static',
         );
         foreach($dirList as $realPath) {
-            if(Common\Dir::make($app_path.DIRECTORY_SEPARATOR.$realPath)) {
+            if(houphp\Common\Dir::make($app_path.DIRECTORY_SEPARATOR.$realPath)) {
                 echo $realPath."  done...".PHP_EOL;
             }
         }
