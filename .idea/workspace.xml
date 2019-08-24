@@ -17,7 +17,7 @@
         <entry file="file://$PROJECT_DIR$/composer.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
-              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="22" />
+              <caret line="17" column="2" lean-forward="true" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -123,12 +123,12 @@
         <option value="$PROJECT_DIR$/src/server/Http.php" />
         <option value="$PROJECT_DIR$/src/server/Soas.php" />
         <option value="$PROJECT_DIR$/src/server/Websocket.php" />
-        <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/composer.json" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1920" />
     <option name="height" value="972" />
@@ -187,15 +187,15 @@
       <option name="presentableId" value="Default" />
       <updated>1563099708163</updated>
       <workItem from="1563099709248" duration="411000" />
-      <workItem from="1566617744820" duration="2364000" />
+      <workItem from="1566617744820" duration="3178000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2775000" />
+    <option name="totallyTimeSpent" value="3589000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="972" extended-state="1" />
+    <frame x="0" y="23" width="1920" height="972" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15495208" />
@@ -299,7 +299,7 @@
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="22" />
+          <caret line="17" column="2" lean-forward="true" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="31" />
         </state>
       </provider>
     </entry>
