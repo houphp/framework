@@ -2,141 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44954f41-c0a7-4dc2-b3bc-4cc61d5f96cb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CREDITS" beforeDir="false" afterPath="$PROJECT_DIR$/CREDITS" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Cache/Adapter/Apc.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Cache/Adapter/Apc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Cache/Adapter/Memcached.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Cache/Adapter/Memcached.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Cache/Adapter/Php.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Cache/Adapter/Php.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Cache/Adapter/Redis.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Cache/Adapter/Redis.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Cache/Adapter/Task.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Cache/Adapter/Task.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Cache/Adapter/XCache.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Cache/Adapter/XCache.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Cache/Adapter/Yac.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Cache/Adapter/Yac.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Cache/Factory.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Cache/Factory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Cache/ICache.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Cache/ICache.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Client/Async/Http.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Client/Async/Http.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Client/Async/Tcp.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Client/Async/Tcp.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Client/Fcgi/Client.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Client/Fcgi/Client.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Client/Rpc/Http.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Client/Rpc/Http.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Client/Rpc/Tcp.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Client/Rpc/Tcp.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Client/Rpc/Udp.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Client/Rpc/Udp.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Client/Sync/Http.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Client/Sync/Http.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Client/Sync/Tcp.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Client/Sync/Tcp.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Common/Debug.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Common/Debug.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Common/Dir.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Common/Dir.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Common/Formater.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Common/Formater.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Common/Lang.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Common/Lang.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Common/Log.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Common/Log.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Common/MessagePacker.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Common/MessagePacker.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Common/Route.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Common/Route.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Common/Terminal.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Common/Terminal.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Common/Utils.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Common/Utils.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Conn/Adapter/Php.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Conn/Adapter/Php.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Conn/Adapter/Redis.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Conn/Adapter/Redis.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Conn/Adapter/Swoole.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Conn/Adapter/Swoole.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Conn/Adapter/Task.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Conn/Adapter/Task.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Conn/Adapter/Yac.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Conn/Adapter/Yac.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Conn/Factory.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Conn/Factory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Conn/IConn.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Conn/IConn.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Controller/IController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Controller/IController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Core/Config.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Core/Config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Core/Factory.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Core/Factory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Core/Route.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Core/Route.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Db/Mongo.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Db/Mongo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Db/Pdo.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Db/Pdo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Houphp.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Houphp.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Log/Adapter/File.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Log/Adapter/File.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Log/Adapter/WebSocket.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Log/Adapter/WebSocket.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Log/Base.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Log/Base.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Log/Factory.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Log/Factory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Log/Level.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Log/Level.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Manager/Beanstalk.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Manager/Beanstalk.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Manager/Memcached.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Manager/Memcached.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Manager/Redis.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Manager/Redis.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Manager/Task.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Manager/Task.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Protocol/Adapter/Ant.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Protocol/Adapter/Ant.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Protocol/Adapter/Cli.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Protocol/Adapter/Cli.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Protocol/Adapter/Http.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Protocol/Adapter/Http.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Protocol/Adapter/Json.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Protocol/Adapter/Json.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Protocol/Adapter/Rest.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Protocol/Adapter/Rest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Protocol/Adapter/Rpc.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Protocol/Adapter/Rpc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Protocol/Adapter/Zpack.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Protocol/Adapter/Zpack.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Protocol/Adapter/Zrpack.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Protocol/Adapter/Zrpack.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Protocol/Factory.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Protocol/Factory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Protocol/IProtocol.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Protocol/IProtocol.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Protocol/Request.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Protocol/Request.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Protocol/Response.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Protocol/Response.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Queue/Adapter/Beanstalk.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Queue/Adapter/Beanstalk.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Queue/Adapter/Php.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Queue/Adapter/Php.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Queue/Adapter/Redis.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Queue/Adapter/Redis.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Queue/Factory.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Queue/Factory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Queue/IQueue.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Queue/IQueue.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Rank/Adapter/Redis.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Rank/Adapter/Redis.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Rank/Factory.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Rank/Factory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Rank/IRank.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Rank/IRank.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Serialize/Adapter/Igbinary.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Serialize/Adapter/Igbinary.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Serialize/Adapter/Msgpack.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Serialize/Adapter/Msgpack.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Serialize/Adapter/Php.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Serialize/Adapter/Php.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Serialize/Factory.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Serialize/Factory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Server/Adapter/Ant.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Server/Adapter/Ant.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Server/Adapter/Cli.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Server/Adapter/Cli.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Server/Adapter/Hprose.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Server/Adapter/Hprose.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Server/Adapter/Http.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Server/Adapter/Http.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Server/Adapter/Rpc.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Server/Adapter/Rpc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Server/Adapter/Socket.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Server/Adapter/Socket.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Server/Factory.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Server/Factory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Server/IServer.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Server/IServer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Session/Adapter/File.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Session/Adapter/File.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Session/Adapter/Redis.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Session/Adapter/Redis.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Session/Factory.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Session/Factory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Session/Swoole.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Session/Swoole.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Socket/Adapter/Hprose.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Socket/Adapter/Hprose.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Socket/Adapter/Php.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Socket/Adapter/Php.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Socket/Adapter/React.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Socket/Adapter/React.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Socket/Adapter/Swoole.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Socket/Adapter/Swoole.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Socket/Callback/Hprose.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Socket/Callback/Hprose.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Socket/Callback/HttpServer.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Socket/Callback/HttpServer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Socket/Callback/Swoole.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Socket/Callback/Swoole.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Socket/Callback/SwooleHttp.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Socket/Callback/SwooleHttp.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Socket/Callback/SwooleUdp.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Socket/Callback/SwooleUdp.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Socket/Callback/SwooleWebSocket.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Socket/Callback/SwooleWebSocket.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Socket/Callback/WSServer.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Socket/Callback/WSServer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Socket/Client.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Socket/Client.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Socket/Factory.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Socket/Factory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Socket/ICallback.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Socket/ICallback.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Socket/IServer.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Socket/IServer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Socket/Route.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Socket/Route.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Socket/Route/FCGI.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Socket/Route/FCGI.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Socket/Route/RPC.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Socket/Route/RPC.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Socket/Route/ZPHP.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Socket/Route/ZPHP.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Socket/Route/ZRpack.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Socket/Route/ZRpack.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Storage/Adapter/RL.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Storage/Adapter/RL.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Storage/Adapter/Redis.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Storage/Adapter/Redis.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Storage/Adapter/TT.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Storage/Adapter/TT.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Storage/Factory.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Storage/Factory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/Storage/IStorage.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/Storage/IStorage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/View/Adapter/Amf.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/View/Adapter/Amf.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/View/Adapter/Ant.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/View/Adapter/Ant.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/View/Adapter/Json.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/View/Adapter/Json.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/View/Adapter/Php.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/View/Adapter/Php.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/View/Adapter/Str.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/View/Adapter/Str.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/View/Adapter/String.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/View/Adapter/String.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/View/Adapter/Xml.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/View/Adapter/Xml.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/View/Adapter/Zpack.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/View/Adapter/Zpack.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/View/Adapter/Zrpack.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/View/Adapter/Zrpack.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/View/Base.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/View/Base.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/View/Factory.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/View/Factory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houphp/View/IView.php" beforeDir="false" afterPath="$PROJECT_DIR$/Houphp/View/IView.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.php" beforeDir="false" afterPath="$PROJECT_DIR$/build.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/1.1.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/1.1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/1.3.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/1.3.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/1.6.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/1.6.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/1.7.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/1.7.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/1.8.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/1.8.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/1.9.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/1.9.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -152,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/build.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+            <state relative-caret-position="181">
+              <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -234,7 +100,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="y" value="23" />
     <option name="width" value="1920" />
     <option name="height" value="972" />
@@ -304,15 +170,15 @@
       <workItem from="1563099709248" duration="411000" />
       <workItem from="1566617744820" duration="11598000" />
       <workItem from="1566649904768" duration="3090000" />
-      <workItem from="1566660008638" duration="2997000" />
+      <workItem from="1566660008638" duration="3369000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18096000" />
+    <option name="totallyTimeSpent" value="18468000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="972" extended-state="0" />
+    <frame x="0" y="23" width="1920" height="972" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11927582" />
@@ -682,15 +548,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+        <state relative-caret-position="76">
+          <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+        <state relative-caret-position="181">
+          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
         </state>
       </provider>
     </entry>
