@@ -1,14 +1,5 @@
 <?php
-// +----------------------------------------------------------------------
-// | HOUCMS [ 厚匠科技 专注建站 APP PC 微站 小程序 WAP ]
-// +----------------------------------------------------------------------
-// | Copyright (c) 2006~2017 http://www.houphp.com All rights reserved.
-// +----------------------------------------------------------------------
-// | Licensed ( http://www.apache.org/licenses/LICENSE-2.0 )
-// +----------------------------------------------------------------------
-// | Author: Amos <447107108@qq.com> http://www.houjit.com
-// +----------------------------------------------------------------------
-    require 'Common/Dir.php';
+    require 'Houphp/Common/Dir.php';
     echo "pls enter app path:".PHP_EOL;
     $app_path = trim(fgets(STDIN));
 
@@ -20,9 +11,10 @@
         }
     }
 
-    if(houphp\Common\Dir::make($app_path)) {
+
+    if(Houphp\Common\Dir::make($app_path)) {
         $dirList = array(
-            'apps'.DIRECTORY_SEPARATOR.'ctrl'.DIRECTORY_SEPARATOR.'index',
+            'apps'.DIRECTORY_SEPARATOR.'ctrl'.DIRECTORY_SEPARATOR.'main',
             'apps'.DIRECTORY_SEPARATOR.'entity',
             'apps'.DIRECTORY_SEPARATOR.'dao',
             'apps'.DIRECTORY_SEPARATOR.'service',
@@ -30,29 +22,29 @@
             'config'.DIRECTORY_SEPARATOR.'default',
             'config'.DIRECTORY_SEPARATOR.'public',
             'template',
-            'public'.DIRECTORY_SEPARATOR.'static',
+            'webroot'.DIRECTORY_SEPARATOR.'static',
         );
         foreach($dirList as $realPath) {
-            if(houphp\Common\Dir::make($app_path.DIRECTORY_SEPARATOR.$realPath)) {
+            if(Houphp\Common\Dir::make($app_path.DIRECTORY_SEPARATOR.$realPath)) {
                 echo $realPath."  done...".PHP_EOL;
             }
         }
         $mainTxt = '<?php
-use houphp;
+use Houphp\Houphp;
 $rootPath = dirname(__DIR__);
-require \''.__DIR__.'\' . DIRECTORY_SEPARATOR . \'houphp.php\';
-houphp::run($rootPath);';
-        file_put_contents($app_path.DIRECTORY_SEPARATOR.'public'.DIRECTORY_SEPARATOR.'index.php', $mainTxt);
-        echo "index.php done...".PHP_EOL;
+require \''.__DIR__.'\'. DIRECTORY_SEPARATOR . \'Houphp\' . DIRECTORY_SEPARATOR . \'Houphp.php\';
+Houphp::run($rootPath);';
+        file_put_contents($app_path.DIRECTORY_SEPARATOR.'webroot'.DIRECTORY_SEPARATOR.'main.php', $mainTxt);
+        echo "main.php done...".PHP_EOL;
 
         $ctrlTxt = '<?php
-namespace ctrl\index;
-use houphp\Controller\IController,
-    houphp\Core\Config,
-    houphp\View;
-use houphp\Protocol\Request;
+namespace ctrl\main;
+use Houphp\Controller\IController,
+    Houphp\Core\Config,
+    Houphp\View;
+use Houphp\Protocol\Request;
 
-class index implements IController
+class main implements IController
 {
 
     public function _before()
@@ -65,9 +57,9 @@ class index implements IController
         //
     }
 
-    public function index()
+    public function main()
     {
-        $project = Config::getField(\'project\', \'name\', \'houphp\');
+        $project = Config::getField(\'project\', \'name\', \'zphp\');
         $data = $project." runing!\n";
         $params = Request::getParams();
         if(!empty($params)) {
@@ -80,7 +72,7 @@ class index implements IController
 }
 
 ';
-		file_put_contents($app_path.DIRECTORY_SEPARATOR.'apps'.DIRECTORY_SEPARATOR.'ctrl'.DIRECTORY_SEPARATOR.'index'.DIRECTORY_SEPARATOR.'index.php', $ctrlTxt);
+		file_put_contents($app_path.DIRECTORY_SEPARATOR.'apps'.DIRECTORY_SEPARATOR.'ctrl'.DIRECTORY_SEPARATOR.'main'.DIRECTORY_SEPARATOR.'main.php', $ctrlTxt);
         echo "ctrl done...".PHP_EOL;
 
         echo "pls enter project_name:".PHP_EOL;
