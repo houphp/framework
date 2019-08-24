@@ -2,65 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44954f41-c0a7-4dc2-b3bc-4cc61d5f96cb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Socket/Route/houphp.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cache/ICache.php" beforeDir="false" afterPath="$PROJECT_DIR$/Cache/ICache.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/Async/Http.php" beforeDir="false" afterPath="$PROJECT_DIR$/Client/Async/Http.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/Async/Tcp.php" beforeDir="false" afterPath="$PROJECT_DIR$/Client/Async/Tcp.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/Fcgi/Client.php" beforeDir="false" afterPath="$PROJECT_DIR$/Client/Fcgi/Client.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/Rpc/Http.php" beforeDir="false" afterPath="$PROJECT_DIR$/Client/Rpc/Http.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/Rpc/Tcp.php" beforeDir="false" afterPath="$PROJECT_DIR$/Client/Rpc/Tcp.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/Rpc/Udp.php" beforeDir="false" afterPath="$PROJECT_DIR$/Client/Rpc/Udp.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/Sync/Http.php" beforeDir="false" afterPath="$PROJECT_DIR$/Client/Sync/Http.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/Sync/Tcp.php" beforeDir="false" afterPath="$PROJECT_DIR$/Client/Sync/Tcp.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/Debug.php" beforeDir="false" afterPath="$PROJECT_DIR$/Common/Debug.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Conn/Adapter/Php.php" beforeDir="false" afterPath="$PROJECT_DIR$/Conn/Adapter/Php.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Conn/Adapter/Redis.php" beforeDir="false" afterPath="$PROJECT_DIR$/Conn/Adapter/Redis.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Conn/Adapter/Swoole.php" beforeDir="false" afterPath="$PROJECT_DIR$/Conn/Adapter/Swoole.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Conn/Adapter/Task.php" beforeDir="false" afterPath="$PROJECT_DIR$/Conn/Adapter/Task.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Conn/Adapter/Yac.php" beforeDir="false" afterPath="$PROJECT_DIR$/Conn/Adapter/Yac.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Conn/Factory.php" beforeDir="false" afterPath="$PROJECT_DIR$/Conn/Factory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Conn/IConn.php" beforeDir="false" afterPath="$PROJECT_DIR$/Conn/IConn.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controller/IController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/IController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Config.php" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Route.php" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Route.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Db/Mongo.php" beforeDir="false" afterPath="$PROJECT_DIR$/Db/Mongo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Db/Pdo.php" beforeDir="false" afterPath="$PROJECT_DIR$/Db/Pdo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/Adapter/File.php" beforeDir="false" afterPath="$PROJECT_DIR$/Log/Adapter/File.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/Adapter/WebSocket.php" beforeDir="false" afterPath="$PROJECT_DIR$/Log/Adapter/WebSocket.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/Base.php" beforeDir="false" afterPath="$PROJECT_DIR$/Log/Base.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/Factory.php" beforeDir="false" afterPath="$PROJECT_DIR$/Log/Factory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/Level.php" beforeDir="false" afterPath="$PROJECT_DIR$/Log/Level.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Manager/Redis.php" beforeDir="false" afterPath="$PROJECT_DIR$/Manager/Redis.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Manager/Task.php" beforeDir="false" afterPath="$PROJECT_DIR$/Manager/Task.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Queue/IQueue.php" beforeDir="false" afterPath="$PROJECT_DIR$/Queue/IQueue.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rank/Factory.php" beforeDir="false" afterPath="$PROJECT_DIR$/Rank/Factory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rank/IRank.php" beforeDir="false" afterPath="$PROJECT_DIR$/Rank/IRank.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/IServer.php" beforeDir="false" afterPath="$PROJECT_DIR$/Server/IServer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Socket/Client.php" beforeDir="false" afterPath="$PROJECT_DIR$/Socket/Client.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Socket/Factory.php" beforeDir="false" afterPath="$PROJECT_DIR$/Socket/Factory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Socket/ICallback.php" beforeDir="false" afterPath="$PROJECT_DIR$/Socket/ICallback.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Socket/IServer.php" beforeDir="false" afterPath="$PROJECT_DIR$/Socket/IServer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Socket/Route.php" beforeDir="false" afterPath="$PROJECT_DIR$/Socket/Route.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Socket/Route/FCGI.php" beforeDir="false" afterPath="$PROJECT_DIR$/Socket/Route/FCGI.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Socket/Route/RPC.php" beforeDir="false" afterPath="$PROJECT_DIR$/Socket/Route/RPC.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Socket/Route/ZPHP.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Socket/Route/ZRpack.php" beforeDir="false" afterPath="$PROJECT_DIR$/Socket/Route/ZRpack.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Storage/Factory.php" beforeDir="false" afterPath="$PROJECT_DIR$/Storage/Factory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Storage/IStorage.php" beforeDir="false" afterPath="$PROJECT_DIR$/Storage/IStorage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/Adapter/Amf.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/Adapter/Amf.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/Adapter/Ant.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/Adapter/Ant.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/Adapter/Json.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/Adapter/Json.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/Adapter/Php.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/Adapter/Php.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/Adapter/Str.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/Adapter/Str.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/Adapter/String.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/Adapter/String.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/Adapter/Xml.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/Adapter/Xml.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/Adapter/Zpack.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/Adapter/Zpack.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/Adapter/Zrpack.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/Adapter/Zrpack.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/Base.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/Base.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/Factory.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/Factory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/IView.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/IView.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.php" beforeDir="false" afterPath="$PROJECT_DIR$/build.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -74,27 +16,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Common/Terminal.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3692">
-              <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Common/Utils.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-              <folding>
-                <element signature="e#6#80#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Client/Async/Http.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -119,35 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Client/Sync/Tcp.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="228">
               <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-              <folding>
-                <element signature="e#6#80#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Client/Async/Tcp.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" selection-start-line="1" selection-end-line="9" selection-end-column="74" />
-              <folding>
-                <element signature="e#6#80#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Client/Fcgi/Client.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1383">
-              <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
               <folding>
                 <element signature="e#6#80#0#PHP" expanded="true" />
               </folding>
@@ -168,10 +65,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Client/Rpc/Tcp.php">
+        <entry file="file://$PROJECT_DIR$/Client/Rpc/Udp.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-598">
-              <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+            <state relative-caret-position="456">
+              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Conn/Adapter/Swoole.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2210">
+              <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
               <folding>
                 <element signature="e#6#80#0#PHP" expanded="true" />
               </folding>
@@ -180,10 +86,49 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Client/Rpc/Udp.php">
+        <entry file="file://$PROJECT_DIR$/Conn/Factory.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+            <state relative-caret-position="279">
+              <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+              <folding>
+                <element signature="e#6#80#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/View/IView.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+              <folding>
+                <element signature="e#6#80#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/View/Factory.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="203">
+              <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+              <folding>
+                <element signature="e#6#80#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/build.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+              <folding>
+                <element signature="e#6#80#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -213,7 +158,6 @@
         <option value="$PROJECT_DIR$/Common/Terminal.php" />
         <option value="$PROJECT_DIR$/Common/Utils.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/build.php" />
         <option value="$PROJECT_DIR$/View/Base.php" />
         <option value="$PROJECT_DIR$/View/Factory.php" />
         <option value="$PROJECT_DIR$/View/IView.php" />
@@ -247,7 +191,6 @@
         <option value="$PROJECT_DIR$/Conn/Factory.php" />
         <option value="$PROJECT_DIR$/Conn/Adapter/Php.php" />
         <option value="$PROJECT_DIR$/Conn/Adapter/Redis.php" />
-        <option value="$PROJECT_DIR$/Conn/Adapter/Swoole.php" />
         <option value="$PROJECT_DIR$/Conn/Adapter/Task.php" />
         <option value="$PROJECT_DIR$/Conn/Adapter/Yac.php" />
         <option value="$PROJECT_DIR$/Common/Debug.php" />
@@ -257,6 +200,8 @@
         <option value="$PROJECT_DIR$/Client/Async/Http.php" />
         <option value="$PROJECT_DIR$/Client/Sync/Http.php" />
         <option value="$PROJECT_DIR$/Client/Sync/Tcp.php" />
+        <option value="$PROJECT_DIR$/Conn/Adapter/Swoole.php" />
+        <option value="$PROJECT_DIR$/build.php" />
       </list>
     </option>
   </component>
@@ -280,23 +225,6 @@
             <path>
               <item name="framework" type="b2602c69:ProjectViewProjectNode" />
               <item name="framework" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
-              <item name="Client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
-              <item name="Client" type="462c0819:PsiDirectoryNode" />
-              <item name="Async" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
-              <item name="Client" type="462c0819:PsiDirectoryNode" />
-              <item name="Sync" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -340,12 +268,12 @@
       <option name="presentableId" value="Default" />
       <updated>1563099708163</updated>
       <workItem from="1563099709248" duration="411000" />
-      <workItem from="1566617744820" duration="7965000" />
+      <workItem from="1566617744820" duration="8056000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8376000" />
+    <option name="totallyTimeSpent" value="8467000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="972" extended-state="0" />
@@ -376,27 +304,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Protocol/IProtocol.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Protocol/Request.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Protocol/Response.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Socket/Client.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -636,16 +543,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Conn/Factory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-          <folding>
-            <element signature="e#6#80#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Conn/Adapter/Php.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -657,16 +554,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Conn/Adapter/Redis.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="74" selection-start-line="9" selection-start-column="74" selection-end-line="9" selection-end-column="74" />
-          <folding>
-            <element signature="e#6#80#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Conn/Adapter/Swoole.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" column="74" selection-start-line="9" selection-start-column="74" selection-end-line="9" selection-end-column="74" />
@@ -813,13 +700,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Client/Rpc/Udp.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Client/Rpc/Http.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1944">
@@ -854,6 +734,63 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#6#80#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/Rpc/Udp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Conn/Adapter/Swoole.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2210">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+          <folding>
+            <element signature="e#6#80#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Conn/Factory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+          <folding>
+            <element signature="e#6#80#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/View/IView.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+          <folding>
+            <element signature="e#6#80#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/View/Factory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+          <folding>
+            <element signature="e#6#80#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
           <folding>
             <element signature="e#6#80#0#PHP" expanded="true" />
           </folding>

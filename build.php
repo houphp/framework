@@ -20,7 +20,6 @@
         }
     }
 
-
     if(Common\Dir::make($app_path)) {
         $dirList = array(
             'apps'.DIRECTORY_SEPARATOR.'ctrl'.DIRECTORY_SEPARATOR.'index',

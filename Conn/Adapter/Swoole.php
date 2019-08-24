@@ -9,7 +9,6 @@
 // | Author: Amos <447107108@qq.com> http://www.houjit.com
 // +----------------------------------------------------------------------
 namespace houphp\Conn\Adapter;
-
 use houphp\Core\Config as ZConfig;
 use houphp\Conn\IConn;
 
