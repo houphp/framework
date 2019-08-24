@@ -1,7 +1,142 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="44954f41-c0a7-4dc2-b3bc-4cc61d5f96cb" name="Default Changelist" comment="" />
+    <list default="true" id="44954f41-c0a7-4dc2-b3bc-4cc61d5f96cb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Cache/Adapter/Apc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cache/Adapter/Memcached.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cache/Adapter/Php.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cache/Adapter/Redis.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cache/Adapter/Task.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cache/Adapter/XCache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cache/Adapter/Yac.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cache/Factory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cache/ICache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/Async/Http.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/Async/Tcp.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/Fcgi/Client.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/Rpc/Http.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/Rpc/Tcp.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/Rpc/Udp.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/Sync/Http.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/Sync/Tcp.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/Debug.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/Dir.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/Formater.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/Lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/Log.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/MessagePacker.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/Route.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/Terminal.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/Utils.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Conn/Adapter/Php.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Conn/Adapter/Redis.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Conn/Adapter/Swoole.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Conn/Adapter/Task.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Conn/Adapter/Yac.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Conn/Factory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Conn/IConn.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Controller/IController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Factory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Route.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Db/Mongo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Db/Pdo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Log/Adapter/File.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Log/Adapter/WebSocket.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Log/Base.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Log/Factory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Log/Level.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manager/Beanstalk.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manager/Memcached.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manager/Redis.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manager/Task.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Protocol/Adapter/Ant.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Protocol/Adapter/Cli.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Protocol/Adapter/Http.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Protocol/Adapter/Json.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Protocol/Adapter/Rest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Protocol/Adapter/Rpc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Protocol/Adapter/Zpack.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Protocol/Adapter/Zrpack.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Protocol/Factory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Protocol/IProtocol.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Protocol/Request.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Protocol/Response.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Queue/Adapter/Beanstalk.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Queue/Adapter/Php.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Queue/Adapter/Redis.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Queue/Factory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Queue/IQueue.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Rank/Adapter/Redis.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Rank/Factory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Rank/IRank.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Serialize/Adapter/Igbinary.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Serialize/Adapter/Msgpack.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Serialize/Adapter/Php.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Serialize/Factory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/Adapter/Ant.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/Adapter/Cli.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/Adapter/Hprose.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/Adapter/Http.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/Adapter/Rpc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/Adapter/Socket.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/Factory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/IServer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session/Adapter/File.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session/Adapter/Redis.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session/Factory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session/Swoole.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Socket/Adapter/Hprose.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Socket/Adapter/Php.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Socket/Adapter/React.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Socket/Adapter/Swoole.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Socket/Callback/Hprose.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Socket/Callback/HttpServer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Socket/Callback/Mimes.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Socket/Callback/Swoole.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Socket/Callback/SwooleHttp.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Socket/Callback/SwooleUdp.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Socket/Callback/SwooleWebSocket.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Socket/Callback/WSServer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Socket/Client.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Socket/Factory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Socket/ICallback.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Socket/IServer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Socket/Route.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Socket/Route/FCGI.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Socket/Route/RPC.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Socket/Route/ZPHP.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Socket/Route/ZRpack.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Storage/Adapter/RL.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Storage/Adapter/Redis.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Storage/Adapter/TT.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Storage/Factory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Storage/IStorage.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/Adapter/Amf.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/Adapter/Ant.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/Adapter/Json.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/Adapter/Php.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/Adapter/Str.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/Adapter/String.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/Adapter/Xml.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/Adapter/Zpack.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/Adapter/Zrpack.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/Base.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/Factory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/IView.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/houphp.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/BaseCtl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/BaseMdl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routers/BaseRouter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/Apps.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/Comet.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/Http.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/Soas.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/Websocket.php" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,99 +149,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/composer.json">
+        <entry file="file://$PROJECT_DIR$/houphp.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="171">
-                <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/controllers/BaseCtl.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="16" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/models/BaseMdl.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/routers/BaseRouter.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/server/Apps.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/server/Comet.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/server/Http.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/server/Soas.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/server/Websocket.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+            <state relative-caret-position="193">
+              <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+              <folding>
+                <element signature="e#81#107#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Houphp</find>
+      <find>ZPHP</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>houphp</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -124,14 +188,21 @@
         <option value="$PROJECT_DIR$/src/server/Soas.php" />
         <option value="$PROJECT_DIR$/src/server/Websocket.php" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/CREDITS" />
         <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/build.php" />
+        <option value="$PROJECT_DIR$/ZPHP.php" />
+        <option value="$PROJECT_DIR$/houphp.php" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1920" />
     <option name="height" value="972" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -155,12 +226,13 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/houphp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="D:\BtSoft\WebSoft\wwwroot\framework" />
     </key>
   </component>
@@ -187,12 +259,12 @@
       <option name="presentableId" value="Default" />
       <updated>1563099708163</updated>
       <workItem from="1563099709248" duration="411000" />
-      <workItem from="1566617744820" duration="3296000" />
+      <workItem from="1566617744820" duration="5686000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3707000" />
+    <option name="totallyTimeSpent" value="6097000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="972" extended-state="0" />
@@ -286,20 +358,59 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/zphp_jg.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3100" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="171">
-            <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+          <first_editor relative-caret-position="912">
+            <caret line="48" selection-start-line="48" selection-end-line="48" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/CREDITS">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+        <state relative-caret-position="437">
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="34" lean-forward="true" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/houphp/ZPHP.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/houphp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+          <folding>
+            <element signature="e#81#107#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
