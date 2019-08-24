@@ -6,6 +6,7 @@
         "houphp",
         "ORM"
     ],
+    "version": "1.0.0",
     "license": "MIT",
     "homepage": "https://www.houphp.cn/",
     "authors": [
